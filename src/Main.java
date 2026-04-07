@@ -5,7 +5,7 @@ import Voorbeeld.ConcreteCreatorA;
 import Voorbeeld.ConcreteCreatorB;
 import Voorbeeld.Creator;
 
-public class App {
+public class Main {
     public static void main(String[] args) throws Exception {
         Creator creatorA = new ConcreteCreatorA();
         creatorA.anOperation();
